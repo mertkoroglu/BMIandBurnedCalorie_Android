@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BmiCalculator">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CBE8FF"
+            android:paddingTop="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvAge1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CBE8FF"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvGender1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CBE8FF"
+            android:paddingBottom="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A9C9FF"
+            android:text="Height (cm): " />
+
+        <SeekBar
+            android:id="@+id/sbHeight"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:indeterminate="false"
+            android:max="210" />
+
+        <TextView
+            android:id="@+id/tvWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A9C9FF"
+            android:text="Weight (kg): " />
+
+        <SeekBar
+            android:id="@+id/sbWeight"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:max="200" />
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#22818E"
+            android:text="Calculate" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FEE6E6"
+            android:orientation="horizontal"/>
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2D2A2E"
+            android:text="Back" />
+    </RadioGroup>
+</LinearLayout>

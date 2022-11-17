@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MertKoroglu_HW1</string>
+    <string name="title">BMI and Burned Calorie Calculator</string>
+    <array name="goals">
+        <item name="maintain">Maintain Current Weight</item>
+        <item name="gain">Gain Weight</item>
+        <item name="lose">Lose Weight</item>
+    </array>
+    <array name="exercise">
+        <item name="walk">Walking</item>
+        <item name="run">Running</item>
+        <item name="cycling">Cycling</item>
+        <item name="swimming">Swimming</item>
+    </array>
+</resources>

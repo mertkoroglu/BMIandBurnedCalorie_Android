@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalorieCalculator">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B8FF91"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#539A00"
+        android:textFontWeight="500" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B8FF91"
+        android:textAlignment="center"
+        android:textColor="#539A00"
+        android:textFontWeight="500" />
+
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B8FF91"
+        android:paddingBottom="20dp"
+        android:textAlignment="center"
+        android:textColor="#539A00"
+        android:textFontWeight="500" />
+
+    <Spinner
+        android:id="@+id/spExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3B8E0E"
+        android:backgroundTintMode="multiply"
+        android:entries="@array/exercise" />
+
+    <ImageView
+        android:id="@+id/imgExercise"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#D9FFC4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2C2E2A"
+        android:text="Weight (kg)"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etWeight2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2C2E2A"
+        android:text="Minutes"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#08450B"
+        android:text="Calculate" />
+
+    <Button
+        android:id="@+id/btnBack2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#653232"
+        android:text="Back" />
+
+</LinearLayout>
